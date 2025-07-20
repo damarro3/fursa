@@ -6,4 +6,4 @@ edition = { workspace = true }
 homepage = { workspace = true }
 license = { workspace = true }
 repository = { workspace = true }
-description = "Mathematical epidemiology modelling with diffence equations"
+description = "Mathematical epidemiology modelling with difference equations"
