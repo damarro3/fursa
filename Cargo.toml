@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/*",
+    "py-fursa"
+]
+default-members = [
+  "crates/*",
+]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["David Martínez Rodríguez <damarro3@upv.es>"]
+edition = "2025"
+homepage = "https://github.com/damarro3/fursa"
+license = "MIT"
+repository = "https://github.com/damarro3/fursa"
+
+[workspace.dependencies]
+serde = { version = "1.0.219", features = ["derive"] }
+pyo3 = { version = "0.25.1", features = ["extension-module"] }
